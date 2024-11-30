@@ -1,5 +1,6 @@
 from app import app
-from app.routes import app
+import flask_login
+
 
 if __name__ == '__main__':
     app.run(debug=True)
